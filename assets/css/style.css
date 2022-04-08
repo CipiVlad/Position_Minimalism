@@ -47,31 +47,117 @@ body {
     box-shadow: 20px 30px 50px #6B6A69;
 }
 
+/* --------------------- */
+
 section {
     width: 52.2vw;
-    height: 20vh;
-    background-image: url();
-    background: whitesmoke;
     position: relative;
-    top: 10vh;
-    left: 60vh;
+    top: 8vh;
+    left: 69vh;
+
+}
+
+section article {
+    width: 25%;
+    height: 60vh;
+    background: #5f6267;
+    background-image: url("https://i.pinimg.com/originals/cb/a2/12/cba212eed69977e8935c472cccd2a0d6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0vh;
+    left: 0vh;
+}
+
+section p {
+    width: 25%;
+    height: 60vh;
+    /* background: #5f6267; */
+    background-image: url("https://i.pinimg.com/736x/46/5d/71/465d7140a2cac9b6ea78feabd5000669--grey-interior-design-dark-grey-interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -66.3vh;
+    left: 19vh;
+
+}
+
+section h3 {
+    width: 25%;
+    height: 60vh;
+    background: #0c2854;
+    background-image: url("https://www.digsdigs.com/photos/2016/10/dark-alluring-bedroom-with-very-simple-and-minimalist-decor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -126.3vh;
+    left: 53vh;
+
 
 }
 
 aside {
     width: 30%;
     height: 60vh;
-    background: #c9d0de;
+    background: #1F2125;
     position: absolute;
     top: 10vh;
     bottom: 10vh;
     left: 10vh;
 }
 
-h1 {
+aside>h1 {
+    margin-top: 30%;
+}
+
+:is(h1, h2) {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 0.5em 0.8em 0.1em #1d1c1c;
+    color: rgba(245, 245, 245, 0.715);
+}
+
+:is(section article, section p, section h3) {
+    border-radius: 8px;
 }
 
 p {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 60px;
+    color: #AC8059;
+
+}
+
+
+header {
+    display: block;
+    text-align: right;
+    margin-right: 2em;
+
+}
+
+header div {
+    display: inline;
+    margin: 2em 2em;
+}
+
+header div nav {
+    font-family: Ubuntu;
+    font-size: 0.8em;
+    font-weight: bolder;
+    color: #f4f7f840;
+    list-style: none;
+    display: inline-block;
+    margin-top: 1em;
+    padding-left: 20px;
+
+}
+
+header div nav:hover {
+    color: rgba(255, 255, 255, 0.5);
 }
